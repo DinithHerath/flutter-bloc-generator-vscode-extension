@@ -1,6 +1,8 @@
 # Flutter Bloc Generator VSCode Extension
 
-This is the README for your extension "flutter-bloc-generator". This extension will help to integrate the bloc pattern easily to your flutter project.
+* This extension will help to integrate the bloc pattern easily to your flutter project.
+* Structure of the file is well organized and easy to understand.
+* Used the flutter bloc and bloc plugins.
 
 ## Features
 
