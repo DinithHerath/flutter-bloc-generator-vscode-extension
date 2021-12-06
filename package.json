@@ -1,5 +1,5 @@
 {
-  "name": "flutter-bloc-generator",
+	"name": "flutter-bloc-generator",
 	"displayName": "Flutter Bloc Generator",
 	"description": "Flutter Bloc code generator extension",
 	"version": "0.0.1",
@@ -10,14 +10,23 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:flutter-bloc-generator.addToModel"
+		"onCommand:flutter-bloc-generator.addToModel"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "flutter-bloc-generator.addToModel",
-            "title": "Flutter Bloc: Add To Model"
-		}]
+		"commands": [
+			{
+				"command": "flutter-bloc-generator.addToModel",
+				"title": "Flutter Bloc: Add To Model"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "flutter-bloc-generator.addToModel"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"lint": "eslint .",
@@ -25,15 +34,14 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-        "@types/vscode": "^1.62.0",
-        "@types/glob": "^7.1.4",
-        "@types/mocha": "^9.0.0",
-        "@types/node": "14.x",
-        "eslint": "^8.1.0",
-        "glob": "^7.1.7",
-        "mocha": "^9.1.3",
-        "typescript": "^4.4.4",
-        "@vscode/test-electron": "^1.6.2"
-    }
-
+		"@types/vscode": "^1.62.0",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.3",
+		"typescript": "^4.4.4",
+		"@vscode/test-electron": "^1.6.2"
+	}
 }
