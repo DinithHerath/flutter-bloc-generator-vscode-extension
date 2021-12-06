@@ -24,7 +24,8 @@
 			"explorer/context": [
 				{
 					"command": "flutter-bloc-generator.addToModel",
-					"group": "flutterbloc"
+					"group": "flutterbloc",
+					"when": "resourceLangId == dart"
 				}
 			]
 		}
