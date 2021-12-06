@@ -29,13 +29,5 @@ This extension contributes the following settings:
 
 ### 1.0.0
 
-Initial release of the plugin.
-Added the explorer menu add to model option.
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+* Initial release of the plugin.
+* Added the explorer menu add to model option.
