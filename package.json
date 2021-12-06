@@ -23,7 +23,8 @@
 		"menus": {
 			"explorer/context": [
 				{
-					"command": "flutter-bloc-generator.addToModel"
+					"command": "flutter-bloc-generator.addToModel",
+					"group": "flutterbloc"
 				}
 			]
 		}
