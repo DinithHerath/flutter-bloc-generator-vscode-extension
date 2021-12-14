@@ -1,16 +1,23 @@
 # Flutter Bloc Generator VSCode Extension
 
-* This extension will help to integrate the bloc pattern easily to your flutter project.
-* Structure of the file is well organized and easy to understand.
-* Used the flutter bloc and bloc plugins.
-
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* This extension will help to integrate the bloc pattern easily to your flutter project.
+* Structure of the file is well organized and easy to understand.
+* Usage of official the flutter bloc and bloc plugins.
+* Add variables to state easily.
+
+## Installation
+
+Flutter Bloc Generator can be installed from the VSCode Marketplace or by searching within VSCode.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Flutter bloc and Bloc packages need to be added to the flutter project using pubspec.yaml file.
+
+### 1.1.1
+
+* Fixed typo
 
 ### 1.1.0
 
