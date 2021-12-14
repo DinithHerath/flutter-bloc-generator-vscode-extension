@@ -2,8 +2,8 @@
 	"name": "flutter-bloc-generator",
 	"publisher": "DinithHerath",
 	"displayName": "Flutter Bloc Generator",
-	"description": "Flutter Bloc code generator extension to neatly organize file of the bloc pattern",
-	"version": "1.1.0",
+	"description": "Flutter Bloc code generator extension to neatly organize files of the bloc pattern.",
+	"version": "1.1.1",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/DinithHerath/flutter-bloc-generator-vscode-extension"
