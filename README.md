@@ -12,6 +12,11 @@ Describe specific features of your extension including screenshots of your exten
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
+### 1.1.0
+
+* Added bloc folder generation to the extension.
+* The initial release of the vscode marketplace version.
+
 ### 1.0.0
 
 * Initial release of the plugin.
