@@ -9,7 +9,7 @@
 
 ## Installation
 
-Flutter Bloc Generator can be installed from the VSCode Marketplace or by searching within VSCode.
+Flutter Bloc Generator can be installed from the VSCode Marketplace or by searching within VSCode Extension Area.
 
 ## Requirements
 
